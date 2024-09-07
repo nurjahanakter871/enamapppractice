@@ -108,9 +108,11 @@ import android.content.Context;
         public void setLon(String newValue){
               _Lon = newValue;
          }
-        private String _EnDt = Global.DateTimeNowYMDHMS();
+
+     private Object Global;
+     private String _EnDt = Global.notify();
         private int _Upload = 2;
-        private String _modifyDate = Global.DateTimeNowYMDHMS();
+        private String _modifyDate = Global.notify();
 
         String TableName = "EligibilityScrToolforChild";
 
@@ -191,7 +193,7 @@ import android.content.Context;
                  contentValues.put("modifyDate", _modifyDate);
                  C.UpdateData(TableName, "uuid", (""+ _uuid +""), contentValues);
 
-                 manageAudit(context,this,AuditTrial.KEY_UPDATE);
+                // manageAudit(context,this,AuditTrial.KEY_UPDATE);
               }
               catch(Exception  e)
               {
