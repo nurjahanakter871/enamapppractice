@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Other existing string resources -->
+    <string name="app_name">EnamAppSyncWebHost</string>
+
+    <!-- Occupation List -->
+    <string-array name="occupation_list">
+        <item>Select Occupation</item>
+        <item>Engineer</item>
+        <item>Teacher</item>
+        <item>Doctor</item>
+        <item>Artist</item>
+        <item>Student</item>
+        <item>Other</item>
+    </string-array>
+    <!-- Occupation Prompt -->
+    <string name="occupation_prompt">Select Occupation</string>
+
+    <!-- Occupation List -->
+    <string-array name="status_list">
+        <item>Select Status</item>
+        <item>Live</item>
+        <item>Death</item>
+
+    </string-array>
+    <!-- Occupation Prompt -->
+    <string name="status_prompt">Select Status</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

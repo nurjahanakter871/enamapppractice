@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+
+
+    <!-- Add TextViews, EditTexts, Buttons, or other UI elements here -->
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Engineer Fragment"
+        android:textSize="40dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvEngineerParticipants"
+        android:layout_width="319dp"
+        android:layout_height="576dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp" />
+
+</LinearLayout>

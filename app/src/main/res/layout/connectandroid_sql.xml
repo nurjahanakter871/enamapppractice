@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Connectandroid_PHPMYSQLActivity">
+
+    <Button
+        android:id="@+id/idBtnList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Participant List"
+        android:textSize="20sp"
+       />
+
+
+    <Button
+        android:id="@+id/idBtnFragmentHost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Occupation Category List"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/idBtnScrToolChild"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Screening Tool for Child"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/idBtnExit"
+        android:layout_width="100dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="56dp"
+        android:text="Exit"
+        android:textSize="20sp"
+       />
+
+    <Button
+        android:id="@+id/idBtnSync"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sync Up"
+        android:textSize="20sp"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/idBtnSyncDownload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sync Down"
+        android:textSize="20sp"
+        android:visibility="gone"
+
+        />
+
+
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+/>
+
+
+
+</LinearLayout>
